@@ -41,7 +41,7 @@ canvas{
     justify-content:center;
 }
 .card{
-    height:450px;
+    height:350px;
     width:300px;
     background-color:#ffffff;
     color: rgb(0, 0, 0);
@@ -90,5 +90,11 @@ canvas{
 
 #sco{
     display:none;
+    width: 140px;
+    text-align: center;
     margin-top: 5px;
+    background-color: rgb(255, 0, 0);
+    padding: 12px;
+    border-radius: 10px;
+    color: #fff;
 }
