@@ -1,0 +1,94 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Righteous', cursive;
+    background-image: linear-gradient(to right, #38ff87, #ffc02e, #f7797d);
+}
+canvas{
+    background-color:#000;
+    position:fixed;
+}
+#pie{
+    position:fixed;
+    color:rgb(255, 255, 255);
+    top:0;
+    left:0;
+    background-color: rgba(58, 109, 82, 0.616);
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 17px;
+    font-weight:bold;
+}
+#player{
+    height:30px;
+    width:30px;
+    border-radius:100%;
+    background-color:rgb(226, 103, 2);
+    position:fixed;
+    bottom:50px;
+    left:50px;
+}
+#card{
+    display:none;
+}
+#card{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.card{
+    height:450px;
+    width:300px;
+    background-color:#ffffff;
+    color: rgb(0, 0, 0);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    border-radius:20px;
+}
+.card p{
+    color:rgb(0, 0, 0);
+    position:relative;
+    font-size:20px;
+    font-weight:bold;
+    
+}
+#btn{
+    margin-top: 20px;
+    padding: 10px;
+    font-size:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+    height:40px;
+    width:250px;
+    color: #fff;
+    background-image: linear-gradient(to right, #ffc02e, #ff5a60);
+    border-radius:8px;
+}
+
+.homebtn {
+    margin-top: 20px;
+    padding: 10px;
+    font-size:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+    height:40px;
+    width:250px;
+    color: #fff;
+    background-image: linear-gradient(to right, #2e2e2e, #bd2eff);
+    border-radius:8px;
+}
+
+#sco{
+    display:none;
+    margin-top: 5px;
+}

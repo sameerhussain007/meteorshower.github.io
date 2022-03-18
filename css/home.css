@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 700px 1250px;
+    background-image: url("https://cdn.dribbble.com/users/635070/screenshots/2522859/media/58abc49a21fd868341e4a7ba558aedd8.png?compress=1&resize=800x600&vertical=top");
+}
+
+.gamename {
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 80px;
+    text-shadow: 10px 10px rgb(0, 0, 0);
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #c21500 0%, #ffc500  51%, #c21500  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 30px 60px;
+   width: 400px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   border: 0;
+   color: white;
+   border-radius: 10px;
+   display: block;
+   margin-top: 550px;
+   font-family: 'Righteous', cursive;
+   font-size: 35px;
+   text-shadow: 4px 4px rgb(0, 0, 0);
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ 
+ .btn2-grad {background-image: linear-gradient(to right, #c21500 0%, #ffc500  51%, #c21500  100%)}
+ .btn2-grad {
+   margin: 10px;
+   padding: 30px 60px;
+   width: 400px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   border: 0;
+   color: white;
+   border-radius: 10px;
+   display: block;
+   font-family: 'Righteous', cursive;
+   font-size: 30px;
+   text-shadow: 3px 3px rgb(0, 0, 0);
+  }
+
+  .btn2-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
