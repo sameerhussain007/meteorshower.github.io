@@ -1,0 +1,44 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand:wght@300&family=Roboto&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* Navbar */
+body {margin:0;}
+
+ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(230, 230, 230);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: black;
+  display: block;
+  text-align: center;
+  padding-left: 24.5px;
+  padding-right: 24.5px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #fff;
+}
+
+.fam {
+    color: black;
+}

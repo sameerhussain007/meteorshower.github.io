@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+
+<body>
+
+    <input type="text" id="myInput" placeholder="Search" onkeyup="searchYoutubers()">
+
+    <ul id="myUL">
+        <li><a href="#"> MySirg </a></li>
+        <li><a href="#"> Telusko </a></li>
+        <li><a href="#"> Code With Harry </a></li>
+        <li><a href="#"> Geeky Shows </a></li>
+        <li><a href="#"> VishAcademy </a></li>
+        <li><a href="#"> CS Geeks </a></li>
+    </ul>
+
+
+    <script>
+        const searchYoutubers = () => {
+            let filter = document.getElementById('myInput').value.toUpperCase();
+
+            let ul = document.getElementById('myUL');
+
+            let li = ul.getElementsByTagName('li');
+
+            for (var i = 0; i < li.length; i++) {
+                let a = li[i].getElementsByTagName('a')[0];
+                let textValue = a.textContent || a.innerHTML;
+                if (textValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = '';
+                } else {
+                    li {
+                        [i]
+                    }.style.display = 'none';
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

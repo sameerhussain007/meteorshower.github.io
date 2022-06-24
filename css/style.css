@@ -1,0 +1,50 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+/* BODY */
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #EAE9E3;
+}
+
+/* NAVBAR */
+
+header {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.s-title {
+    background: linear-gradient(to right, #EAE9E3 0%, #EAE9E3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+ pre {
+  width: 50%;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 12px;
+ }
+
+ footer {
+  background-color: #fff;
+ }
+
+ .myblogs {
+  color: #182031;
+ }
+
+ .mystats {
+  background-color: #182031;
+  color: #fafafa;
+ }
+
+ .learnmore {
+  color: #89043D;
+ }
+
+ .quoteline {
+  color: #182031;
+ }
